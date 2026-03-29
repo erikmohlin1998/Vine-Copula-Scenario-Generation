@@ -53,6 +53,24 @@ The script currently produces:
 - simulated copula-scale data from the fitted vine model
 - a table of simulated one-step-ahead return scenarios
 
+Below is a histogram of the probability integral transformed standardised residuals for Apple stock, and a QQ-plot compared to a U~(0,1) distribution.
+
+![AAPL PIT data histogram](output/AAPL_hist.png)
+
+![AAPL PIT QQ plot](output/AAPL_QQplot.png)
+
+This picture shows pairwise plots of the uniform data for four different stocks (AAPL, KO, MSFT, PEP), with contour plots and Kendall's Tau values for each pair.
+
+![uniform data plot](output/PIT_data_plot.png)
+
+This nex picture shows the same, however for Monte Carlo simulated uniform data from the fitted vine copula. 
+
+![vine sim plot](output/vine_cop_simulation.png)
+
+This final graph is a simple illustration of the vine structure four the four stocks.
+
+![vine tree plot](output/vine_tree_structure.png)
+
 ## Motivation
 
 This repository was built as a compact quantitative finance project to demonstrate:
