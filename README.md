@@ -2,7 +2,7 @@
 
 A Python project for **multivariate financial return modeling and simulation**.
 
-This script combines **univariate GJR-GARCH marginal models** with a **vine copula dependence structure** to generate **one-step-ahead joint return scenarios** for multiple assets. Standardized residuals are transformed to the copula scale using the **probability integral transform (PIT)**, a vine copula is fitted to the transformed data, and simulations are mapped back into return space using the fitted marginal models. This was motivated trough the Master's Thesis in finance I am currently working on.
+This script combines **univariate GJR-GARCH marginal models** with a **vine copula dependence structure** to generate **one-step-ahead joint return scenarios** for multiple assets. Standardized residuals are transformed to the copula scale using the **probability integral transform (PIT)**, a vine copula is fitted to the transformed data, and simulations are mapped back into return space using the fitted marginal models. This was motivated through the Master's Thesis in finance I am currently working on, using similar methods.
 
 ## Overview
 
