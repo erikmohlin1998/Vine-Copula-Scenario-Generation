@@ -63,11 +63,11 @@ This picture shows pairwise plots of the uniform data for four different stocks 
 
 ![uniform data plot](output/PIT_data_plot.png)
 
-This nex picture shows the same, however for Monte Carlo simulated uniform data from the fitted vine copula. 
+This next picture shows the same, however for Monte Carlo simulated uniform data from the fitted vine copula. 
 
 ![vine sim plot](output/vine_cop_simulation.png)
 
-This final graph is a simple illustration of the vine structure four the four stocks.
+This final graph is a simple illustration of the vine structure for the four stocks.
 
 ![vine tree plot](output/vine_tree_structure.png)
 
